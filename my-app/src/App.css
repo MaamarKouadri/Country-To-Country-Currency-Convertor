@@ -1,0 +1,294 @@
+body {
+  font: normal 14px/100% "Andale Mono", AndaleMono, monospace;
+  color:black;
+  padding: 50px;
+  background-color:#00004d;
+  text-align: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: bolder;
+  
+}
+
+.MyButton:hover {
+  background-color:#52527a; /* Green */
+  color: white;
+}
+
+.ConvertButton:hover {
+  background-color:white; /* Green */
+  color: black;
+}
+
+.MyInput{
+  margin: 10px;
+  width: 50%;
+  text-align: center;
+  align-items: center;
+  font: normal 16px/100% "Andale Mono", AndaleMono, monospace;
+  color:black;
+  font-weight: 900;
+  size:3 rem;
+}
+
+
+.MyForm{
+  margin-top: 0px;
+  position :relative;
+  border: 5px solid black;
+ margin-left: 0px;
+ margin-right: 0px;
+
+ background-color: #00004d;
+ padding: 20px;
+ color:white;
+}
+
+.MyForm button{
+  background-color:white;
+  color:#00004d;;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.Earth{
+
+  position:absolute;
+  top:1350px;
+  bottom:0;
+  left :0;
+  right:0;
+  margin:auto;
+  width: 350px;
+  height: 350px;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Blue_Marble_2002.png/1280px-Blue_Marble_2002.png);
+  border-radius: 50%;
+  background-size: cover;
+  box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+  animation : spin 20s linear  infinite;
+}
+
+@keyframes spin {
+  100%{background-position:100%;}
+}
+
+.BigDiv{
+  border: 5px solid black;
+  left: 5%;
+  margin:auto;
+  top:0%;
+  align-content: center;
+}
+
+#td{
+  background-color: red;
+}
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#Table td, #customers th {
+  border: 1px solid #ddd;
+  padding: 18px;
+}
+
+#AlertMessage{
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+#Output{
+ 
+  padding-inline: 20%;
+  background-color: #e6e6ff;
+  padding:1%;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  
+}
+#Table tr:nth-child(even){background-colo:#ddd;}
+
+#Table tr:hover {background-color:lightslategrey;}
+
+#Table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 60%;
+  padding:15px;
+  text-align: center;
+  background-color:#00004d;
+  color: white;
+ 
+}
+
+#SpecialInput{
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #e6e6ff;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+#SpecialInput2{
+  font-size: 20px;
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #e6e6ff;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+#Table{
+  
+display: block;
+margin-inline: auto;
+background-color: #e6e6ff;
+border: 6px solid  black;
+
+}
+#Currency1{
+  background-color: red;
+
+}
+.ZeTable{
+  border: 6px solid  black;
+  width: 100%;
+  background-color: #e6e6ff;
+
+}
+
+.FormDiv{
+  background-color: #e6e6ff;
+  width:100%;
+display: block;
+color:#00004d;
+border: 6px solid black;
+}
+.FormDiv ,input[type=text], select {
+  width: 100%;
+  padding: 12px 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #e6e6ff;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button{
+background-color: #00004d ;/* Green */
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 14px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;
+}
+
+.Outer{
+  border: 6px solid black;
+  margin:auto;
+  width:100%;
+}
+
+
+.Outer td{
+  margin:auto;
+  width:100%;
+}
+
+
+[class*="col-"] {
+  width: 100%;
+}
+
+@media all and (max-width: 600px) {
+  
+  .ZeTable{
+    
+  width: max-content;
+  height: max-content;
+  }
+
+  .MyForm{
+  }
+  .BigDiv{
+    width: max-content;
+    height: max-content;
+    padding-bottom: 0%;
+  }
+
+  .Outer{
+    width: max-content;
+    height: max-content;
+  }
+
+  #Table{
+    width: max-content;
+    height: max-content;
+  }
+
+  .FormDiv{
+    width: max-content;
+    height: max-content;
+  }
+
+  /*
+
+
+  body {
+  
+  color : black;
+  }
+
+ 
+  .ZeTable{
+    width: 50%;
+  }
+
+  .Outer{
+    width: fill-available;
+  }
+ 
+
+  .BigDiv{
+    width: fill-available;
+    padding-bottom: 0%;
+  }
+
+
+  .Outer{
+    width:30%;
+  }
+
+  #Table{
+    width:30%;
+  }
+
+  .FormDiv{
+    width:30%;
+  }
+*/
+  }
+
+

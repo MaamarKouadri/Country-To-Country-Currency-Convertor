@@ -29,7 +29,7 @@ This online convertor is very simple to use, here are the steps that you should 
 
 **1**-Access the project by clicking on the following Project link on the bottom of this section.
 
-**2**-Make sure to select two different countries in the dropdown menus at the top. You directly type the first letter of the name of the country and manually select it yourself.
+**2**-Make sure to select two different countries that have different currencies in the dropdown menus at the top. You directly type the first letter of the name of the country and manually select it yourself.
 
 **3**-Press the submit button, then the two flags of the two countries will appear, with a table displaying informations about the two currencies.
 

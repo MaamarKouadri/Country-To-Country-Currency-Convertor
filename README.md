@@ -5,8 +5,8 @@
 ___
 
 This website/app is a country to country currency 
-convertor. It simply fetches the data from a free API that is being updated every hour and allows the user to compare the values of the currencies of two different countries. 
-
+convertor. It simply fetches the data from a free API that is being updated every hour and allows the user to compare the values of the currencies of two different countries.
+The usage of   React  is being demonstrated by three main components who have been defined by taking advantage of props and state functionalities offered by the framework . This mechanism allows the display of the required information in the app in very dynamic and adapted way.
 
 
 ## Technologies used

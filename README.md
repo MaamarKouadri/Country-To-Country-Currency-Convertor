@@ -12,9 +12,8 @@ The usage of   React  is being demonstrated by three main components who have be
 ## Technologies used
 ___
 
-**Frontend**:  React,html,css,javascript .
+**Technologies used**:  React,html,css,javascript .
 
-**Backend**: Node.js .
 
 **API** : The API used for this project is called the
 The Free Currency Converter API. Here bellow you will find its website by clicking on the API website link.
